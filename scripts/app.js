@@ -10,6 +10,8 @@
                 count--
             } else if (button.classList.contains('nextBtn')) {
                 count++
+            } else if (button.classList.contains('rstBtn'))  {
+                count = 0;
             }
 
             //Select the counter text

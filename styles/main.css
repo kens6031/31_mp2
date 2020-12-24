@@ -16,7 +16,7 @@ body {
 }
 
 .main-container {
-    border: 0.1rem solid var(--mainBlack);
+    border: 0.2rem solid var(--mainBlack);
     box-shadow: 0 0.5rem 0.5rem rgb(3, 3, 250);
     border-radius: 0.6rem;
 }
@@ -28,7 +28,8 @@ body {
 }
 
 .prevBtn,
-.nextBtn {
+.nextBtn,
+.rstBtn {
     box-shadow: 0 0.2rem 0.5rem rgb(55, 1, 252);
     background: var(--mainBlue);
     color: var(--mainWhite);
@@ -39,5 +40,9 @@ body {
 }
 
 .nextBtn:hover {
+    background: var(--lightBlue);
+}
+
+.rstBtn:hover {
     background: var(--lightBlue);
 }
